@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Murree Hoteling</title>
+    <!-- Animation  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- Boxicons CSS -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="scroll-up-btn">
+      <i class="fas fa-angle-up"></i>
+    </div>
+    <section class="main-home">
+      <div class="header">
+        <img src="./images/logo.png" alt="" />
+        <ul>
+          <li><a href="" class="active">Home</a></li>
+          <li><a href="">Accomodations</a></li>
+          <li><a href="">Our Services</a></li>
+          <li><a href="">Special Offer</a></li>
+          <li><a href="">Rooms</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+        <div class="toggle" onclick="myFunction()" id="toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <!-- <div class="snow"></div> -->
+      </div>
+      <div class="home">
+        <form action="">
+          <div class="form-control">
+            <label for="">Arrival:</label>
+            <input type="date" name="" id="" />
+          </div>
+          <div class="form-control">
+            <label for="">Departure:</label>
+            <input type="date" name="" id="" />
+          </div>
+          <div class="form-control">
+            <label for="">Rooms:</label>
+            <select name="" id="">
+              <option value="">Standard Deluxe 2</option>
+              <option value="">Standard Deluxe 2</option>
+              <option value="">Standard Deluxe 2</option>
+            </select>
+          </div>
+          <div class="form-control-2">
+            <div class="sub-form-control">
+              <label for="">Abults:</label>
+              <div class="count-div">
+                <div class="count-1">
+                  <input type="text" id="qtyBox" readonly="" value="0" />
+                  <div class="little-div" style="color: white">/6</div>
+                </div>
+                <div class="little-btn">
+                  <button id="sub" type="button">-</button
+                  ><button id="add" type="button">+</button>
+                </div>
+              </div>
+            </div>
+            <div class="sub-form-control">
+              <label for="">Children:</label>
+              <div class="count-div">
+                <div class="count-1">
+                  <input type="text" id="qtyBox1" readonly="" value="0" />
+                  <div class="little-div" style="color: white">/6</div>
+                </div>
+                <div class="little-btn">
+                  <button id="sub1" type="button">-</button
+                  ><button id="add1" type="button">+</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button type="submit" id="search">Search</button>
+        </form>
+        <div class="home-text">
+          <div class="top-text">
+            <p>
+              Are you on a hunt for perfect family vacation or a business trip
+              getaway?
+            </p>
+            <h6 style="color: var(--skyblue)">
+              We are the place of your choice!
+            </h6>
+          </div>
+          <div class="middle-text">
+            <h1>
+              <sup><i class="fas fa-quote-left"></i></sup>
+              Luxurious hotel in <br />
+              <span style="color: var(--skyblue)">Murree</span> Alps – <br />
+              incredible!
+            </h1>
+            <p>
+              <b>Khan</b> <br />
+              Pakistan
+            </p>
+          </div>
+          <div class="bottom-text">
+            <p>
+              One of the most important things we want to achieve is being the
+              most comfortable, friendly and luxurious travel destination. And
+              we keep it that way for a long time!
+            </p>
+          </div>
+        </div>
+        <div class="weather-check">
+          <h1>
+            +<span class="counter">3</span><sup>o</sup
+            ><i class="far fa-clouds-sun"></i>
+          </h1>
+          <p>
+            <b>Ayubia phase#3</b> <br />
+            Murree
+          </p>
+        </div>
+      </div>
+
+      <img src="./images/trees.png" alt="" id="trees" />
+    </section>
+    <section class="all-section">
+      <img src="./images/trees.png" alt="" id="tree2" />
+
+      <div class="services">
+        <div class="left-services">
+          <h1>
+            Our Services Make <br />
+            Your Stay Cool
+          </h1>
+          <p>
+            Our Hotel is a perfect holiday destination both for the families
+            with kids and for individuals. Our glorious mountainous landscapes
+            will lighten your stay through all the seasons!
+          </p>
+          <a href=""><button>View All</button></a>
+        </div>
+        <div class="right-services">
+          <div class="right-services-1">
+            <h4>Wellness Area</h4>
+            <p>
+              1. Our Hotel's recreational areas include an olympic size swimming
+              pool, GYM and a separate SPA & Wellness zone with sauna, massage
+              rooms and hot tubs.
+            </p>
+          </div>
+          <div class="right-services-1">
+            <h4>Summer Activities</h4>
+            <p>
+              2. Summer can never be a bore with such beautiful sceneries
+              around. Hike and bike across this gorgeous French countryside!
+            </p>
+          </div>
+          <div class="right-services-1">
+            <h4>Winter Activities</h4>
+            <p>
+              3. As our Hotel is located in French Alps, winter sports such as
+              downhill or cross-country skiing and snowboarding are essentials
+              here! So don't miss out on them today!
+            </p>
+          </div>
+          <div class="right-services-1">
+            <h4>Children's Area</h4>
+            <p>
+              4. Our Child Care is a professional service, that makes sure your
+              kids are safe and engaged while you're enjoying another daily
+              holiday activities or having a romantic dinner!
+            </p>
+          </div>
+        </div>
+      </div>
+      <br /><br /><br /><br />
+      <div class="special">
+        <div class="left-special">
+          <h1>
+            Our Special <br />
+            Offers For You
+          </h1>
+          <a href=""><button>View All</button></a>
+        </div>
+        <div class="swiper-container mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <p>
+                <sup><i class="fas fa-quote-left"></i></sup>
+                The place is a marvellous holiday spot, me and my family just
+                loved the scenery around and the hotel interior and rooms look
+                the best a European hotel can look and feel!
+              </p>
+              <h2>Harry</h2>
+              <p>UK</p>
+            </div>
+            <div class="swiper-slide">
+              <p>
+                <sup><i class="fas fa-quote-left"></i></sup>
+
+                I've visited Europe many times, but this Hotel and the region
+                are now definitely my favorites!
+              </p>
+              <h2>Ali</h2>
+              <p>Australia</p>
+            </div>
+            <div class="swiper-slide">
+              <p>
+                <sup><i class="fas fa-quote-left"></i></sup>
+
+                I couldn't have chosen a better business trip hub for myself,
+                than this hotel! Remarkable in its quality and service - it felt
+                just like home while in between my harsh business meetings...
+              </p>
+              <h2>Micheal</h2>
+              <p>Spain</p>
+            </div>
+          </div>
+
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+      <br /><br /><br /><br />
+
+      <div class="rooms">
+        <div class="room-1">
+          <div class="top-room top-room-1">
+            <h1>Grand Delvatore</h1>
+            <h6>Start From $300.00</h6>
+          </div>
+          <div class="bottom-room">
+            <div class="bottom-1">
+              <h4>Grand Delux Room</h4>
+              <div class="rev-star">
+                39 Reviews
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+                magnam voluptatum itaque illo.
+              </p>
+              <a href="">View Details <i class="fas fa-caret-right"></i></a>
+            </div>
+            <div class="bottom-2">
+              <a href="">Select This Room <i class="fas fa-angle-right"></i></a>
+            </div>
+          </div>
+          <div class="features">
+            <div class="feature-1">
+              <i class="fas fa-wifi"></i>
+              <p>Free WIFI</p>
+            </div>
+            <div class="feature-1">
+              <i class="fas fa-user-friends"></i>
+              <p>Max Person</p>
+            </div>
+            <div class="feature-1">
+              <i class="fas fa-mug-hot"></i>
+              <p>
+                BreakFast <br />
+                Included
+              </p>
+            </div>
+            <div class="feature-1">
+              <h2 style="color: var(--skyblue)">4</h2>
+              <p>Rooms Left</p>
+            </div>
+            <div class="feature-1">
+              <i class="fas fa-tags"></i>
+              <p>No Refund</p>
+            </div>
+            <div class="feature-1 feature-2">
+              <h2>$300</h2>
+              <p>Per Night</p>
+            </div>
+          </div>
+        </div>
+        <div class="room-1">
+          <div class="top-room top-room-2">
+            <h1>King Delvatore</h1>
+            <h6>Start From $315.00</h6>
+          </div>
+          <div class="bottom-room">
+            <div class="bottom-1">
+              <h4>King Delux Room</h4>
+              <div class="rev-star">
+                39 Reviews
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+                magnam voluptatum itaque illo.
+              </p>
+              <a href="">View Details <i class="fas fa-caret-right"></i></a>
+            </div>
+            <div class="bottom-2">
+              <a href="">Select This Room <i class="fas fa-angle-right"></i></a>
+            </div>
+          </div>
+          <div class="features">
+            <div class="feature-1">
+              <i class="fas fa-wifi"></i>
+              <p>Free WIFI</p>
+            </div>
+            <div class="feature-1">
+              <i class="fas fa-user-friends"></i>
+              <p>Max Person</p>
+            </div>
+            <div class="feature-1">
+              <i class="fas fa-mug-hot"></i>
+              <p>
+                BreakFast <br />
+                Included
+              </p>
+            </div>
+            <div class="feature-1">
+              <h2 style="color: var(--skyblue)">4</h2>
+              <p>Rooms Left</p>
+            </div>
+
+            <div class="feature-1 feature-2">
+              <h2>$315</h2>
+              <p>Per Night</p>
+            </div>
+          </div>
+        </div>
+        <div class="room-1">
+          <div class="top-room top-room-3">
+            <h1>Classic Delvatore</h1>
+            <h6>Start From $115.00</h6>
+          </div>
+          <div class="bottom-room">
+            <div class="bottom-1">
+              <h4>Classic Room</h4>
+              <div class="rev-star">
+                86 Reviews
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+                magnam voluptatum itaque illo.
+              </p>
+              <a href="">View Details <i class="fas fa-caret-right"></i></a>
+            </div>
+            <div class="bottom-2">
+              <a href="">Select This Room <i class="fas fa-angle-right"></i></a>
+            </div>
+          </div>
+          <div class="features">
+            <div class="feature-1">
+              <i class="fas fa-wifi"></i>
+              <p>Free WIFI</p>
+            </div>
+            <div class="feature-1">
+              <i class="fas fa-user-friends"></i>
+              <p>Max Person</p>
+            </div>
+            <div class="feature-1">
+              <i class="fas fa-mug-hot"></i>
+              <p>
+                BreakFast <br />
+                Included
+              </p>
+            </div>
+            <div class="feature-1">
+              <h2 style="color: var(--skyblue)">4</h2>
+              <p>Rooms Left</p>
+            </div>
+            <div class="feature-1">
+              <i class="fas fa-tags"></i>
+              <p>No Refund</p>
+            </div>
+            <div class="feature-1">
+              <h2 style="color: var(--skyblue)">0%</h2>
+              <p>Discount</p>
+            </div>
+            <div class="feature-1 feature-2">
+              <h2>$115</h2>
+              <p>Per Night</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br /><br /><br /><br />
+
+      <footer>
+        <div class="footer-1 top-footer">
+          <h5>Subscribe To hear News from Us</h5>
+          <div class="emial-btn">
+            <input
+              type="email"
+              name=""
+              id=""
+              placeholder="Enter Email Address"
+            />
+            <a href="">
+              <button>Sign UP</button>
+            </a>
+          </div>
+          <br />
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Accomodations</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Special Offer</a></li>
+            <li><a href="">Rooms</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-1 middle-footer">
+          <button>Request A CallBack</button>
+          <div class="image-text">
+            <img src="./images/footer-logo.png" alt="" />
+            <p>
+              <b
+                >11 Rooms Hotel provides a wide array of summer and winter
+                activities.</b
+              >
+              For example, a winter season can offer diverse set of outdoor
+              activities, if you find yourself in such a spectacular location as
+              French Alps. So you will be able to go on a downhill, snowboarding
+              or sledging with your partner, friends or family. And during the
+              hot French summer you will have an option to go hiking or
+              bicycling across this beautiful countryside.
+            </p>
+          </div>
+        </div>
+        <div class="footer-1 bottom-footer">
+          <h3>Contact Us</h3>
+          <div class="add-tell">
+            <p>
+              Address: <br />
+              PAE des Glaisins - 8 avenue du Pré Félin - 23456 Top-le-Vieux
+            </p>
+            <p>
+              Telephone: <br />
+              +92 312 4534654
+            </p>
+          </div>
+          <div class="links">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-google-plus-g"></i>
+          </div>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52983.262290403916!2d73.36092695737533!3d33.90371589537958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfd715776097a9%3A0x17b2e1d6bfb8e190!2sMurree%2C%20Rawalpindi%2C%20Punjab!5e0!3m2!1sen!2s!4v1642228495295!5m2!1sen!2s"
+            width="300"
+            height="200"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+      </footer>
+    </section>
+    <!-- Script  -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="style.js"></script>
+  </body>
+</html>

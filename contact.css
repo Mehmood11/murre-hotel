@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --skyblue: #20e0c7;
+}
+.main-home .contact-container {
+  /* height: 100vh; */
+  margin-top: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.main-home .contact-container .main-contact {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  position: relative;
+  border: 2px solid white;
+}
+.main-home .contact-container .main-contact .whole-address {
+  position: absolute;
+  top: 10px;
+  left: -10%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 20px;
+  width: 300px;
+  height: 400px;
+  background-color: white;
+}
+.main-home .contact-container .main-contact .whole-address p {
+  align-self: center;
+  color: gray;
+}
+.main-home .contact-container .main-contact .whole-address .add-1 {
+  margin-top: 20px;
+}
+.main-home .contact-container .main-contact .whole-address .add-1 h3 {
+  font-size: 14px;
+}
+.main-home .contact-container .main-contact .whole-address .add-1 p {
+  font-size: 13px;
+}
+.main-home .contact-container .main-contact .whole-address .contacts-div {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 30px;
+}
+.main-home .contact-container .main-contact .whole-address .contacts-div .div1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  margin-top: 5px;
+}
+.title {
+  /* width: 100%; */
+  padding: 1rem;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* text-align: center; */
+}
+.title h5 {
+  font-weight: 500;
+  font-size: 2rem;
+  position: relative;
+}
+.title h5::before {
+  content: "";
+  width: 7px;
+  height: 100%;
+  position: absolute;
+  left: -10px;
+  background-color: var(--skyblue);
+}
+footer {
+  background: rgb(63, 67, 251);
+  background: radial-gradient(
+    circle,
+    rgba(63, 67, 251, 0.34217436974789917) 0%,
+    rgba(70, 217, 252, 0.5634628851540616) 100%
+  );
+}
